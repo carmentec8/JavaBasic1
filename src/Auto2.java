@@ -1,15 +1,16 @@
-public class Auto {
+public class Auto2 {
     private int cilindrata;
     private String targa;
     private String marca;
     private String modello;
 
-    public Auto(int cilindrata, String targa, String marca, String modello) {
+    public void Auto(int cilindrata, String targa, String marca, String modello) {
         this.cilindrata = cilindrata;
         this.targa = targa;
         this.marca = marca;
         this.modello = modello;
     }
+
     public int getCilindrata() {
         return cilindrata;
     }
@@ -31,6 +32,7 @@ public class Auto {
     public String getMarca() {
         return marca;
     }
+
     public String setMarca(String marca) {
         this.marca = marca;
         return marca;
@@ -44,6 +46,7 @@ public class Auto {
         this.modello = modello;
         return modello;
     }
+
     @Override
     public String toString() {
         return "Auto{" +
@@ -54,3 +57,4 @@ public class Auto {
                 '}';
     }
 }
+
