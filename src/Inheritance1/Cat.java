@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance1;
 
 public class Cat extends Animals {
     public String catSound = "Cat goes meow";
