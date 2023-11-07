@@ -1,3 +1,5 @@
+package GetSet2;
+
 public class AutoMain {
 
     public static void main(String[] args) {

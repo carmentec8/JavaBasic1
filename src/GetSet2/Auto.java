@@ -1,3 +1,5 @@
+package GetSet2;
+
 public class Auto {
     private int cilindrata;
     private String targa;
@@ -46,7 +48,7 @@ public class Auto {
     }
     @Override
     public String toString() {
-        return "Auto{" +
+        return "GetSet2.Auto{" +
                 "Cilindrata:" + cilindrata + '\'' +
                 ", Targa:'" + targa + '\'' +
                 ", Marca:'" + marca + '\'' +

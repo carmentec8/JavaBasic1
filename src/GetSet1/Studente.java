@@ -1,3 +1,5 @@
+package GetSet1;
+
 public class Studente {
     public String nome;
     public String cognome;
@@ -33,7 +35,7 @@ public class Studente {
 
     @Override
     public String toString() {
-        return "Studente{" +
+        return "GetSet1.Studente{" +
                 "nome='" + nome + '\'' +
                 ", cognome='" + cognome + '\'' +
                 ", identificativo=" + identificativo +
