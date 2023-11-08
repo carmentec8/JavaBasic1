@@ -8,12 +8,7 @@ public class Cat extends Animals {
         System.out.println(catSound);
     }
 
-    public static void main(String[] args) {
-    Animals animal = new Animals();
-    Cat cat = new Cat();
-    animal.soundIs();
-    cat.soundIs();
-    }
+
 
 
 }
