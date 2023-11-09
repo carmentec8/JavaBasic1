@@ -1,14 +1,14 @@
 package AbstractClasses;
 
 public abstract class Forma {
-    private int base = 6;
-    private int altezza = 5;
+    private float base = 6;
+    private float altezza = 5;
 
-    public int getBase() {
+    public float getBase() {
         return base;
     }
 
-    public int getAltezza() {
+    public float getAltezza() {
         return altezza;
     }
 
