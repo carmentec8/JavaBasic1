@@ -1,12 +1,10 @@
 package Inheritance2;
 
 public class Rettangolo extends Forma {
-    double baseRett = 3;
-    double altezzaRett =8;
+    double base = 3;
+    double altezza =8;
     @Override
     public void calcolaArea (){
-        System.out.println("L'area della forma è: " + baseRett*altezzaRett);
+        System.out.println("L'area della forma è: " + base*altezza);
     }
-
-
 }
