@@ -7,7 +7,9 @@ public class FormaMain {
         Triangolo triangolo = new Triangolo();
 
         forma.calcolaArea();
-        rettangolo.calcolaArea();
-        triangolo.calcolaArea();
+
+        double areaRettangolo= rettangolo.calcolaArea();
+        double areaTriangolo= triangolo.calcolaArea();
     }
+
 }
