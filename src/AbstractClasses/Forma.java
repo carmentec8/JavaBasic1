@@ -1,16 +1,16 @@
 package AbstractClasses;
 
 public abstract class Forma {
-    private float base = 6;
-    private float altezza = 5;
+    private double base = 6;
+    private double altezza = 5;
 
-    public float getBase() {
+    public double getBase() {
         return base;
     }
 
-    public float getAltezza() {
+    public double getAltezza() {
         return altezza;
     }
 
-    public abstract void calcolaArea();
+    public abstract double calcolaArea();
 }

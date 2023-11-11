@@ -5,7 +5,7 @@ public class Main {
         Rettangolo rettangolo = new Rettangolo();
         Triangolo triangolo = new Triangolo();
 
-        rettangolo.calcolaArea();
-        triangolo.calcolaArea();
+        double areaRett= rettangolo.calcolaArea();
+        double areaTriang= triangolo.calcolaArea();
     }
 }
